@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    background-color: rgb(68, 68, 68);
+    text-indent: 50px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.name{
+    background-color: rgb(240, 197, 229);
+    border-left: 20;
+    font-size: 35px;
+}
+
+nav{
+    font-size: 20px;
+}
+section{
+    float: right;
+    width: auto;
+    
+}
+
+
+
+
+.section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.section-container h1 {
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+.section-container div {
+    margin: 20px;
+    border-left: 5px solid rgb(240, 197, 229);
+    padding: 20px;
+
+   
+}
+
+.project-images {
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+}
